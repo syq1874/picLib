@@ -25,6 +25,11 @@ pagehelper:
 
 spring:
   profiles: beta
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 39.99.175.175
   # 数据源
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
